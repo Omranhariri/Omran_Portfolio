@@ -1,12 +1,12 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Merhi.png';
+import heroImg from '../../assets/Omrani.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/OmranCV.pdf';
 import { useTheme } from '../../assets/common/ThemeContext';
 
 function Hero() {
@@ -22,7 +22,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Omran Hariri"
         />
         <img
           className={styles.colorMode}
@@ -33,21 +33,21 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Karim
+          Omran
           <br />
-          Merhi
+          Hariri
         </h1>
-        <h2>Engineering Student</h2>
+        <h2>Data Analyst</h2>
         <span>
-          <a href="https://github.com/Merhii" target="_blank">
+          <a href="https://github.com/Omranhariri" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://www.linkedin.com/in/karimmerhi/" target="_blank">
+          <a href="https://www.linkedin.com/in/omran-hariri/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern Mobile & Web applications.
+        MSc in Business Analytics, diving deep into data to uncover insights and help drive smarter decisions."
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
