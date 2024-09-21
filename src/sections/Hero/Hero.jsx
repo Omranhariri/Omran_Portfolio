@@ -47,7 +47,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-        MSc in Business Analytics, diving deep into data to uncover insights and help drive smarter decisions."
+        MSc in Business Analytics, diving deep into data to uncover insights and help drive smarter decisions
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
