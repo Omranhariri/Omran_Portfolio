@@ -3,7 +3,7 @@ import ProjectCard from '../../assets/common/ProjectCard';
 import shoezly from '../../assets/man.avif';
 import car from '../../assets/car.jpeg';
 import spt from '../../assets/spotify.png';
-import shs from '../../assets/SmartHome®.webp';
+import shs from '../../assets/SmartHome.webp';
 
 function Projects() {
   return (
