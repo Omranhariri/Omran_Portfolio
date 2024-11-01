@@ -3,6 +3,7 @@ import ProjectCard from '../../assets/common/ProjectCard';
 import shoezly from '../../assets/man.avif';
 import car from '../../assets/car.jpeg';
 import spt from '../../assets/spotify.png';
+import shs from '../../assets/SmartHome®.webp';
 
 function Projects() {
   return (
@@ -27,7 +28,12 @@ function Projects() {
           h3="User Behavior Dashboard"
           p="Excel | Pivot tables | Slicers"
         />
-       
+        <ProjectCard
+          src={shs}
+          link="https://github.com/Omranhariri/Spotify--Power-BI-Project/blob/main/README.md"
+          h3="Spotify Streams Report"
+          p="PowerBI | PowerQuery"
+        />
       </div>
     </section>
   );
