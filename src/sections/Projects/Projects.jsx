@@ -31,7 +31,7 @@ function Projects() {
         <ProjectCard
           src={shs}
           link="https://github.com/Omranhariri/Smart-House"
-          h3="Spotify Streams Report"
+          h3="Smart Home Adoption Analytics"
           p="PowerBI | PowerQuery"
         />
       </div>
