@@ -30,7 +30,7 @@ function Projects() {
         />
         <ProjectCard
           src={shs}
-          link="https://github.com/Omranhariri/Spotify--Power-BI-Project/blob/main/README.md"
+          link="https://github.com/Omranhariri/Smart-House"
           h3="Spotify Streams Report"
           p="PowerBI | PowerQuery"
         />
