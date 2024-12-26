@@ -9,7 +9,8 @@ function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
-      <h3 className="sectionTitle">PowerBI</h3>
+
+      <h2 className="sectionTitle">PowerBI</h2>
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={spt}
@@ -17,6 +18,15 @@ function Projects() {
           h3="Spotify Streams Report"
           p="PowerBI | PowerQuery"
         />
+         <ProjectCard
+          src={shs}
+          link="https://github.com/Omranhariri/Smart-House"
+          h3="Smart Home Adoption Analytics"
+          p="PowerBI | PowerQuery"
+        />
+        </div>
+        <h2 className="sectionTitle">Excel</h2>
+        <div className={styles.projectsContainer}>
            <ProjectCard
           src={car}
           link="https://github.com/Omranhariri/Car-Accidents---Excel---Project/blob/main/README.md"
@@ -29,13 +39,7 @@ function Projects() {
           h3="User Behavior Dashboard"
           p="Excel | Pivot tables | Slicers"
         />
-        <ProjectCard
-          src={shs}
-          link="https://github.com/Omranhariri/Smart-House"
-          h3="Smart Home Adoption Analytics"
-          p="PowerBI | PowerQuery"
-        />
-      </div>
+        </div>
     </section>
   );
 }
