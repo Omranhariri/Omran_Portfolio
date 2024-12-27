@@ -16,7 +16,7 @@ function Projects() {
           src={gay}
           link="https://github.com/Omranhariri/Spotify--Power-BI-Project/blob/main/README.md"
           h3="Housing Price Prediction"
-          p="R"
+        
         />
       </div>
       <h2 className="sectionTitle">PowerBI</h2>
@@ -25,13 +25,13 @@ function Projects() {
           src={spt}
           link="https://github.com/Omranhariri/Spotify--Power-BI-Project/blob/main/README.md"
           h3="Spotify Streams Report"
-          p="PowerBI | PowerQuery"
+       
         />
          <ProjectCard
           src={shs}
           link="https://github.com/Omranhariri/Smart-House"
           h3="Smart Home Adoption Analytics"
-          p="PowerBI | PowerQuery"
+       
         />
         </div>
         <h2 className="sectionTitle">Excel</h2>
@@ -40,13 +40,13 @@ function Projects() {
           src={car}
           link="https://github.com/Omranhariri/Car-Accidents---Excel---Project/blob/main/README.md"
           h3="Road Accident Dashboard"
-          p="Excel | Pivot tables | Slicers"
+         
         />
          <ProjectCard
           src={shoezly}
           link="https://github.com/Omranhariri/User-Behavior--Excel--Project/blob/main/README.md"
           h3="User Behavior Dashboard"
-          p="Excel | Pivot tables | Slicers"
+        
         />
         </div>
     </section>
