@@ -4,6 +4,7 @@ import shoezly from '../../assets/man.avif';
 import car from '../../assets/car.jpeg';
 import spt from '../../assets/spotify.png';
 import shs from '../../assets/SmartHome.webp';
+import gay from '../../assets/Rproject1.jpeg'
 
 function Projects() {
   return (
@@ -12,7 +13,7 @@ function Projects() {
       <h2 className="sectionTitle"> R </h2>
       <div className={styles.projectsContainer}>
       <ProjectCard
-          src={spt}
+          src={gay}
           link="https://github.com/Omranhariri/Spotify--Power-BI-Project/blob/main/README.md"
           h3="Housing Price Prediction"
           p="R"
