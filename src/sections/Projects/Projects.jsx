@@ -14,7 +14,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
       <ProjectCard
           src={gay}
-          link="https://github.com/Omranhariri/Spotify--Power-BI-Project/blob/main/README.md"
+          link=""
           h3="Housing Price Prediction"
         
         />
