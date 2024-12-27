@@ -14,7 +14,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
       <ProjectCard
           src={gay}
-          link=""
+          link="https://github.com/Omranhariri/Predictive-Modeling-for-House-Prices-Using-R.git"
           h3="Housing Price Prediction"
         
         />
