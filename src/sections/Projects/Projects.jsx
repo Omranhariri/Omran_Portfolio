@@ -9,7 +9,15 @@ function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
-
+      <h2 className="sectionTitle"> R </h2>
+      <div className={styles.projectsContainer}>
+      <ProjectCard
+          src={spt}
+          link="https://github.com/Omranhariri/Spotify--Power-BI-Project/blob/main/README.md"
+          h3="Housing Price Prediction"
+          p="R"
+        />
+      </div>
       <h2 className="sectionTitle">PowerBI</h2>
       <div className={styles.projectsContainer}>
         <ProjectCard
